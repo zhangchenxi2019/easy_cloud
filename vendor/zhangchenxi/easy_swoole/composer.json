@@ -1,0 +1,20 @@
+{
+    "name": "zhangchenxi/easy_swoole",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangchenxi2019",
+            "email": "zhangchenxi2019@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "EasySwoole\\":"./src/"
+        },
+        "files": [
+            "./src/Support/Helper.php"
+        ]
+    }
+}

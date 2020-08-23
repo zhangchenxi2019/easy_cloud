@@ -1,0 +1,24 @@
+{
+    "name": "zhangchenxi/easy_cloud",
+    "authors": [
+        {
+            "name": "zhangchenxi2019",
+            "email": "zhangchenxi2019@gmail.com"
+        }
+    ],
+    "require": {
+        "zhangchenxi/easy_swoole": "dev-master",
+        "firebase/php-jwt": "^5.2"
+    },
+    "repositories": {
+        "zhangchenxi": {
+            "type": "path",
+            "url" : "../easy_swoole"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyCloud\\": "src/"
+        }
+    }
+}
